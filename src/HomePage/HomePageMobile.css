@@ -1,0 +1,48 @@
+@media (max-width: 768px){
+
+    *{
+        
+        width: 100%;
+    }
+
+    .Hero {
+        visibility: visible;
+      
+        height: calc(100vh - 120px);
+
+      }
+      
+      #HeroContainer {
+          visibility: visible;
+        display: flex;
+          
+        overflow: hidden;
+        height: calc(100% - 10px);
+      
+        border: dashed rebeccapurple;
+      }
+      
+    #HeroName{
+        visibility: visible;
+        font-size: 28px;
+        height: 8vh;
+        position: relative;
+        margin-bottom: 0px;
+        
+    }
+    
+    #HeroImageContainer {
+
+      position: absolute;
+      background-image: url("https://picsum.photos/id/1067/600/400");
+
+      margin-top:calc(70px + 8vh);
+      height: 680px;
+      width: 380px;
+      margin-right: auto;
+      margin-left: auto;
+      align-self: center;
+    }
+    
+
+}

@@ -1,5 +1,6 @@
 
 import "./HomePage.css";
+import "./HomePageMobile.css";
 export default function HomePage() {
   return (
     
