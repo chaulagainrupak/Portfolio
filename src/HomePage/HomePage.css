@@ -1,0 +1,131 @@
+* {
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #f1faee;
+
+
+  /*     background-image: url(/public/Images/Background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
+}
+
+.Hero {
+  visibility: visible;
+
+  height: calc(100vh - 120px);
+}
+
+#HeroContainer {
+    
+  display: flex;
+  overflow: hidden;
+  height: calc(100% - 10px);
+
+  border: dashed rebeccapurple;
+}
+
+#HeroName{
+
+    margin: 30px;
+    font-size: 74px;
+    height: 8vh;
+}
+
+#HeroImageContainer {
+  
+    visibility: visible;
+
+  background-image: url("https://picsum.photos/id/1067/600/400");
+
+    margin-top:calc(70px + 8vh);
+  height: 680px;
+  width: 380px;
+    position: absolute;
+
+    margin-left: 100px;
+    border: solid #457b9d 8px;
+}
+
+
+
+/* #Thing{
+    
+    display: flex;
+    align-items: center;
+
+    width: 600px;
+    height: 200px;
+    background-color: steelblue;
+
+    justify-content: center;
+
+    border-radius: 20px;
+    box-shadow: 12px 12px  pink;
+
+    transition: 0.5s ease-in-out;
+
+
+} */
+
+/* h1{
+    background-color: steelblue;
+} */
+
+.Blog {
+    height: 100vh;
+  background-color: #457b9d;
+  visibility: visible;
+  
+}
+
+
+@media (max-width: 768px){
+
+    *{
+        
+        width: 100%;
+    }
+
+    .Hero {
+        visibility: visible;
+      
+        height: calc(100vh - 120px);
+
+      }
+      
+      #HeroContainer {
+          visibility: visible;
+        display: flex;
+          
+        overflow: hidden;
+        height: calc(100% - 10px);
+      
+        border: dashed rebeccapurple;
+      }
+      
+    #HeroName{
+        visibility: visible;
+        font-size: 28px;
+        height: 8vh;
+        position: relative;
+        margin-bottom: 0px;
+        
+    }
+    
+    #HeroImageContainer {
+
+      position: absolute;
+      background-image: url("https://picsum.photos/id/1067/600/400");
+
+      margin-top:calc(70px + 8vh);
+      height: 680px;
+      width: 380px;
+      margin-right: auto;
+      margin-left: auto;
+      align-self: center;
+    }
+    
+
+}
