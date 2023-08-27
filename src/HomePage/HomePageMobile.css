@@ -1,17 +1,22 @@
+
+
+
 @media (max-width: 768px){
 
+    
     *{
-        
-        width: 100%;
+        transition: none;
+        visibility: hidden;
     }
 
-    .Hero {
+    .Hero, .HeroBlog{
         visibility: visible;
-      
-        height: calc(100vh - 120px);
+        height: 100vh;
+    }
+    
+    
 
-      }
-      
+/*
       #HeroContainer {
           visibility: visible;
         display: flex;
@@ -43,6 +48,6 @@
       margin-left: auto;
       align-self: center;
     }
-    
+ */
 
 }

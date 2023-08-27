@@ -1,4 +1,5 @@
 import "./TopBar.css";
+import "./BottomBarMobile.css";
 
 export default function TopBar() {
   return (
@@ -15,22 +16,13 @@ export default function TopBar() {
           <button id="Home">
             Home
           </button>
-          <button id="Projects">
+          <button id="NavProjects">
             Projects
           </button>
         </div>
         <a href="socials.html" id="Socials">
           Socials
         </a>
-      </div>
-
-      <div className="MobNav">
-        <a href="index.html" id="MLogo">
-          Logo
-        </a>
-        <button id="Menu">
-          Menu
-        </button>
       </div>
     </div>
   );

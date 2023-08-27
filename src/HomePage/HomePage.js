@@ -3,8 +3,6 @@ import "./HomePage.css";
 import "./HomePageMobile.css";
 export default function HomePage() {
   return (
-    
-    
     <div>
       <head><meta name="viewport" content="width=device-width, initial-scale=1"/></head>
       <div className="Hero">
@@ -16,8 +14,9 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="Blog">
-
+      <div className="HeroBlog">
+          THis is a thing
+          
       </div>
     </div>
   );

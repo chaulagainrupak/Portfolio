@@ -1,0 +1,100 @@
+@media (max-width: 768px) {
+
+
+    .Nav {
+
+        width: 100vw;
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        background-color: red;
+        align-items: center;
+
+        visibility: visible;
+
+        position: fixed !important;
+        z-index: 20;
+
+        margin-top: calc(100vh - 120px);
+
+        background: rgba(107, 107, 107, 0.2);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.2px);
+        -webkit-backdrop-filter: blur(4.2px);
+    }
+
+
+    #Socials {
+
+        visibility: visible;
+
+        border: none;
+        font-size: 28px;
+        color: inherit;
+        text-decoration: none;
+    
+        border-radius: 20px;
+        background: #e63946;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        padding: 8px 12px 12px;
+        margin-right: 32px;
+    
+        cursor: pointer;
+        transition: 0.5s ease-in-out; 
+    }
+    
+    
+    #Socials:hover,
+    #Menu:hover {
+        transform: scale(1.2);
+        opacity: 90%;
+    }
+    
+    
+    #Home,
+    #NavBlog,
+    #NavProjects {
+        
+        visibility: visible;
+        
+        border: none;
+        font-size: 24px;
+        text-decoration: none;
+        transition: 0.5s ease-in-out;
+    
+        background: none;
+    }
+    
+    #NavBlog,
+    #NavProjects {
+    
+        cursor: not-allowed;
+    }
+    
+    
+    #Home:hover,
+    #NavBlog:hover,
+    #NavProjects:hover {
+        transform: scale(1.2);
+        color: #0566a7;
+    }
+    
+    
+    #Logo {
+        visibility: visible;
+        margin-left: 32px;
+        text-decoration: none;
+        transition: 0.5s ease-in-out;
+    
+        background: none;
+    }
+    
+    #NavMiddle {
+    
+        display: flex;
+        gap: 35px;
+        background: none;
+    
+    }
+    
+}
