@@ -7,7 +7,10 @@ export default function HomePage() {
       <head><meta name="viewport" content="width=device-width, initial-scale=1"/></head>
       <div className="Hero">
         <div id="HeroContainer">
-          <div id="HeroName">Hello This is Me! </div>
+            <div id="HeroIntro">
+            <div id="ThisIs">Hello This is</div>
+            <div id="HeroName">Rupak Chaulagain</div>
+            </div>
           <div id="HeroImageContainer">
             {/* <img src="/Images/Background.jpg" alt="Background"></img> */}
           </div>

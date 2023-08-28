@@ -1,13 +1,20 @@
 @media (max-width: 768px) {
 
+    #Socials,#Logo{
+        visibility: hidden;
+        position: absolute;
+    }
 
+    *{
+        color: #2a2a2a;
+    }
     .Nav {
 
         width: 100vw;
         height: 120px;
         display: flex;
-        justify-content: space-between;
-        background-color: red;
+        justify-content: space-around;
+        background-color: rgb(51, 51, 51);
         align-items: center;
 
         visibility: visible;
@@ -17,38 +24,16 @@
 
         margin-top: calc(100vh - 120px);
 
-        background: rgba(107, 107, 107, 0.2);
+        background: rgba(77, 77, 77, 0.3);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(4.2px);
         -webkit-backdrop-filter: blur(4.2px);
-    }
 
 
-    #Socials {
-
-        visibility: visible;
-
-        border: none;
-        font-size: 28px;
-        color: inherit;
-        text-decoration: none;
-    
-        border-radius: 20px;
-        background: #e63946;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-        padding: 8px 12px 12px;
-        margin-right: 32px;
-    
-        cursor: pointer;
-        transition: 0.5s ease-in-out; 
     }
     
     
-    #Socials:hover,
-    #Menu:hover {
-        transform: scale(1.2);
-        opacity: 90%;
-    }
+
     
     
     #Home,
@@ -79,20 +64,12 @@
         color: #0566a7;
     }
     
-    
-    #Logo {
-        visibility: visible;
-        margin-left: 32px;
-        text-decoration: none;
-        transition: 0.5s ease-in-out;
-    
-        background: none;
-    }
+
     
     #NavMiddle {
     
         display: flex;
-        gap: 35px;
+        gap: 28px;
         background: none;
     
     }
