@@ -44,6 +44,18 @@ letter-spacing: -12px;
 
 }
 
+#HeroIntro{
+  position: absolute !important;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-items: center;
+
+  margin-left: 15vb;
+  margin-top: 15vh;
+}
+
 /* #HeroImageContainer {
   
     visibility: visible;
