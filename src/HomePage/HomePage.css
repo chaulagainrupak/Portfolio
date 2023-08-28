@@ -25,7 +25,7 @@
 
 #ThisIs{
 font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 128px;
+font-size: clamp(90px, calc(calc(0.14 * 100vw) - calc(0.14 * 100vh)), 128px) ;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -36,11 +36,11 @@ letter-spacing: -12px;
 #HeroName{
 
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 128px;
+  font-size: clamp(100px, calc(calc(0.14 * 100vw) - calc(0.14 * 100vh)), 128px);
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: -15px;
+  letter-spacing: -14px;
 
 }
 
