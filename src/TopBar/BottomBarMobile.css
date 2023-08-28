@@ -5,11 +5,12 @@
         position: absolute;
     }
 
-    *{
-        color: #2a2a2a;
-    }
+
     .Nav {
 
+
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
         width: 100vw;
         height: 120px;
         display: flex;
@@ -32,8 +33,6 @@
 
     }
     
-    
-
     
     
     #Home,
