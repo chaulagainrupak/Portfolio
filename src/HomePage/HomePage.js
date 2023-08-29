@@ -23,7 +23,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="HeroBlog">THis is a thing</div>
+      <div className="HeroBlog">The site is still under construction<br/>Won't be complete in a long time i feel like so.</div>
     </div>
   );
 }
