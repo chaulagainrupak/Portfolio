@@ -6,17 +6,19 @@ export default function HomePage() {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <div className="Hero" style={{ height: window.innerHeight }}>
+      <div className="Hero">
         <div id="HeroContainer">
           <div id="HeroIntro">
             <div id="ThisIs">Hello This is</div>
             <div id="HeroName">Rupak Chaulagain</div>
-            <div id="ContactMe">
-              <a href="#">Contact Me</a>
+            <a href="rupakchaulagainexists@gmail.com" id="ContactMe">Contact Me</a>
+
+            <div className="blob">
+              <img src="/Images/blob.png" alt="blob" id="blob"></img>
             </div>
           </div>
           <div id="HeroImageContainer">
-            <img src="/Images/Background.jpg" alt="Background"></img>
+            <img src="/Images/HeroImg.jpg" alt="Im a Developer" id="HeroImg"></img>
           </div>
         </div>
       </div>
