@@ -3,12 +3,6 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #1c1c1c;
-
-
-  /*     background-image: url(/public/Images/Background.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover; */
 }
 
 .Hero {
@@ -108,8 +102,58 @@ letter-spacing: -12px;
 .HeroBlog{
   visibility: visible;
   height: 100vh;
-  background-color: #457b9d;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
+
+
+/* #BlogTitle, #BlogContent{
+
+  background-color: whitesmoke;
+  color: #2a2a2a;
+  padding: 20px;
+  padding-top: 10px;
+}
+
+#BlogTitle{
+  margin-top: 200px;
+}
+
+#BlogThumbnail{
+  position: relative;
+}
+ */
+#BlogCard{
+
+  width: 250px;
+  height: 200px;
+  background-color: whitesmoke;
+  color: #2a2a2a;
+
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-overflow: ellipsis;
+  transition: 0.2s ease-in-out;
+
+}
+
+
+#CardItems{
+  display: flex;
+  margin: 20px;
+}
+
+#BlogCard:hover{
+  transform: scale(1.09);
+  opacity: 90%;
+}
+
+
 
 @media (max-width: 1230px){
 

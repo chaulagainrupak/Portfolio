@@ -1,5 +1,21 @@
 import "./HomePage.css";
 import "./HomePageMobile.css";
+
+const ReactingToReact = {
+  Thumbnail: 'SomeThumbnail',
+  Title: 'Reacting To react!',
+  Content: 'I am learning react and js at the same time! pretty neat huh? Lorem ipsum dolor sit amet tempor invidur tempor invidur' ,
+  PostDate: Date()
+}
+
+function loadblog(){
+  return (
+    <div>
+
+    </div>
+  );
+}
+
 export default function HomePage() {
   return (
     <div>
@@ -23,7 +39,15 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="HeroBlog">The site is still under construction<br/>Won't be complete in a long time i feel like so.</div>
+      <div className="HeroBlog">The site is still under construction<br/>Won't be complete in a long time i feel like so.
+        <div id="BlogCard">
+            <div id="CardItems">          
+            {ReactingToReact.Thumbnail}<br/>
+            {ReactingToReact.Title}<br/>
+            {ReactingToReact.Content}<br/>  
+          </div>          
+        </div>
+      </div>
     </div>
   );
 }
